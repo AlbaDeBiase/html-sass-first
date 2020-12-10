@@ -1,0 +1,30 @@
+$colore_principale: pink;
+$dimensione_titolo:40px;
+$colore_testo_paragrafo: darkgrey;
+$colore_sfondo_principale:#f8f871;
+$dimensione_testo_paragrafo:35px;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    background-color: $colore_sfondo_principale;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color:$colore_principale;
+    font-size: $dimensione_titolo;
+}
+
+p {
+    color:$colore_testo_paragrafo;
+    font-size:$dimensione_testo_paragrafo;
+}
